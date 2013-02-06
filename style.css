@@ -1,0 +1,402 @@
+body
+{
+    background-color:#b6b1a5;
+    font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    color:#464648;
+}
+
+tr,td
+{
+    margin: 0;
+    padding:0;
+    vertical-align: top;
+}
+
+td.productDescCell
+{
+    vertical-align: top;
+}
+
+table
+{
+    border-collapse: collapse;
+    empty-cells: show;
+    padding: 0;
+    margin: 0;
+}
+
+.contentArea
+{
+    position: absolute;
+    width: 1024px;
+    min-width: 1024px;
+    height: 768px;
+    left: 50%;
+    top: 50%;
+    margin-left: -512px;
+    margin-top: -384px;
+    background-image: url(images/hintergrundverlauf.png);
+    background-repeat: no-repeat;
+}
+
+.logoArea
+{
+    position: absolute;
+    left: 107px;
+    top: 52px;
+    background-image: url(images/Logo_Below-werke_03.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 55px;
+    width: 345px;
+    overflow: hidden;
+}
+
+.langChangeArea
+{
+    position: absolute;
+    left: 572px;
+    top:10px;
+    width:345px;
+    height:12px;
+    text-align: right;
+    overflow: hidden;
+    color: white;
+    line-height: 12px;
+}
+
+.menuArea
+{
+    position:absolute;
+    top:145px;
+    left: 0px;
+    width: 810px;
+    height: 17px;
+    overflow: hidden;
+    padding-left: 107px;
+    padding-right: 107px;
+    background-color: #8c0a28;
+}
+
+.leftHeaderArea
+{
+    position: absolute;
+    top:202px;
+    left:107px;
+    width: 345px;
+    height:72px;
+    overflow: hidden;
+}
+
+.leftContentArea
+{
+    position: absolute;
+    top:274px;
+    left:107px;
+    width: 345px;
+    overflow: hidden;
+}
+
+.rightHeaderArea
+{
+    position: absolute;
+    top:202px;
+    left:572px;
+    width: 345px;
+    height:72px;
+    overflow: hidden;
+}
+
+.commonHeaderArea
+{
+    position: absolute;
+    top:202px;
+    left:107px;
+    width: 810px;
+    height:72px;
+    overflow: hidden;
+}
+
+
+
+.rightContentArea
+{
+    position: absolute;
+    top:274px;
+    left:572px;
+    width: 345px;
+    overflow: hidden;
+}
+
+.commonContentArea
+{
+    position: absolute;
+    top:274px;
+    left:107px;
+    width: 810px;
+    height: 480px;
+    overflow: scroll;
+}
+
+.navigationBar
+{
+    position: absolute;
+    top: 3px;
+    width: 810px;
+    height: 17px;
+    vertical-align: middle;
+}
+
+.contentTable
+{
+    position: absolute;
+    width: 1024px;
+    min-width: 1024px;
+    height: 768px;
+    left: 50%;
+    top: 50%;
+    margin-left: -512px;
+    margin-top: -384px;
+    background-image: url(images/hintergrundverlauf.png);
+    background-repeat: no-repeat;
+}
+
+.menuTable
+{
+    height: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.logoRow
+{
+    height: 55px;
+}
+.logoCell
+{
+    background-image: url(images/Logo_Below-werke_03.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 55px;
+}
+
+.menuRow
+{
+    vertical-align: middle;
+    height: 17px;
+    margin:0;
+    padding:0;
+}
+
+ul
+{
+    color:#8c0a28;
+    list-style-type: square;
+}
+
+td.menuCell
+{
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    border-right: 1px white solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 10px;
+    line-height: 10px;
+}
+
+td.menuCellLeft
+{
+    vertical-align: middle;
+    text-align: left;
+    color: white;
+    font-size: 10px;
+    border-right: 1px white solid;
+    padding-left: 0;
+    padding-right: 20px;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 10px;
+    line-height: 10px;
+}
+
+td.menuCellRight
+{
+    vertical-align: middle;
+    text-align: right;
+    color: white;
+    font-size: 10px;
+    padding-left: 20px;
+    padding-right: 0;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 10px;
+    line-height: 10px;
+}
+
+.contentCell
+{
+    vertical-align: top;
+    text-align: left;
+    color:#464648;
+    width:810px;
+    height: 442px;
+    overflow: auto;
+}
+
+.scrollBox
+{
+    width: 810px;
+    height: 442px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+h1
+{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #8c0a28;
+}
+
+h2
+{
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #8c0a28;
+}
+
+p
+{
+    margin-top: 0;
+}
+
+.strong-red
+{
+    font-weight: bold;
+    color: #8c0a28;
+}
+.strong-gray
+{
+    font-weight: bold;
+}
+
+.normal-gray
+ {
+     font-weight: normal;
+     color:#464648;
+ }
+
+img.productImg
+{
+    width: 345px;
+    height: 345px;
+}
+
+
+td.productNavigationCell
+{
+    width: 9px;
+    padding-right: 3px;
+}
+
+a:link { font-weight:normal; color:inherit; text-decoration:none; }
+a:visited { font-weight:normal; color:inherit; text-decoration:none; }
+a.menuLinkActive:link { font-weight:bold; color:#c1bcae; text-decoration:none; }
+a.menuLinkActive:visited { font-weight:bold; color:#c1bcae; text-decoration:none; }
+a:focus { font-weight:bold; color:inherit; text-decoration:none; }
+a:hover { font-weight:bold; color:inherit; text-decoration:none; }
+a.menuLink:hover { font-weight:normal; color:#c1bcae; text-decoration:none; }
+a:active { font-weight:bold; color:inherit; text-decoration:none; }
+
+.list {
+    display: inline;
+    list-style-type: none;
+    text-align: left;
+    padding: 0px;
+}
+
+.list_text_item
+{
+    height: 60px;
+    width: 345px;
+    position:relative;
+    top:0px
+}
+.list_img_item
+{
+    height: 345px;
+    width: 345px;
+    position:relative;
+    top:0px
+}
+
+.list_item
+{
+    height: 426px;
+    width: 345px;
+    position:relative;
+    top:0px
+}
+
+.navLink
+{
+    color:transparent;
+    line-height: 8px;
+    font-size: 8px;
+}
+
+.textOverflowArea
+{
+    overflow: hidden;
+    height: 60px;
+}
+
+.imgOverflowArea
+{
+    overflow: hidden;
+    height: 345px;
+}
+
+.productOverflowArea
+ {
+     overflow: hidden;
+     height: 426px;
+ }
+
+.productDescription
+{
+    margin-top: 21px;;
+}
+
+.inputField
+{
+    width: 275px;
+}
+
+.messageInputField
+{
+    width: 275px;
+    max-width: 275px;
+    height: 70px;
+    max-height: 70px;
+
+}
+
+
+
+
+
+
